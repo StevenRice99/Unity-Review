@@ -84,7 +84,7 @@ public class Character : MonoBehaviour
     private void Update()
     {
         // Perform actions. Comment this out if choosing to run it from the game manager.
-        Act();
+        //Act();
 
         // Move towards a random position.
         transform.position = Vector3.MoveTowards(transform.position, GameManager.RandomPosition(),Time.deltaTime * moveSpeed);

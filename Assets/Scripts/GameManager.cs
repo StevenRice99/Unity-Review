@@ -117,7 +117,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    /*private void Update()
+    private void Update()
     {
         // Comment this method out if performing Act() from the characters themselves.
         // Perform the actions of a single character, and increment the value for the next frame.
@@ -126,5 +126,5 @@ public class GameManager : MonoBehaviour
         {
             _characterIndex = 0;
         }
-    }*/
+    }
 }
